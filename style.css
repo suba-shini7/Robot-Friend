@@ -1,0 +1,117 @@
+body{
+	background: rgb(0,0,0);
+}
+
+h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: white;
+}
+.container{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*background: black;*/
+	margin-top: 90px;
+
+}
+.Rhead{
+	width: 200px;
+	height: 150px;
+	background: rgba(118, 113, 120,0.5);
+	border-radius: 150px 150px 0 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	transition:all 1s;
+}
+.Rhead:hover{
+	transform: scale(1.2);
+}
+.reye{
+	width:15px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+
+}
+.leye{
+	width:15px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+	
+}
+.empty{
+	width: 10px;
+	height: 10px;
+}
+.container2{
+		width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*background: black;*/
+	justify-content: center;
+
+
+}
+.rhand{
+	width: 30px;
+	height: 100px;
+	background: red;
+	border-radius: 50px 50px;
+	margin-right: 10px;
+	margin-top: -80px;
+	
+}
+.Rbody{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 0 0 50px 50px;
+
+
+}
+
+.lhand{
+	width: 30px;
+	height: 100px;
+	background: red;
+	border-radius: 50px 50px;
+	margin-left: 10px;
+	margin-top: -80px;
+}
+.container3{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	/*background: black;*/
+	justify-content: center;
+	margin-top: -20px;
+	
+}
+.rleg{
+	width: 40px;
+	height: 100px;
+	background: red;
+	border-radius: 50px 50px;
+	margin-right: 10px;
+
+}
+.lleg{
+	width: 40px;
+	height: 100px;
+	background: red;
+	border-radius: 50px 50px;
+	margin-left: 10px;
+	transition: all 1s;
+}
+.lleg:hover{
+	transform: skewY(25deg);
+}
